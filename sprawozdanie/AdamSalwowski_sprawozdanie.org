@@ -1,0 +1,126 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+options: author:t broken-links:nil c:nil creator:nil
+#+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+options: timestamp:t title:t toc:t todo:t |:t
+#+title: Statyczna? strona portfolio wraz z poradnikami programistycznymi dla początkujących
+#+author: Adam Salwowski
+#+language: pl
+#+select_tags: export
+#+exclude_tags: noexport
+* Spis treści :toc:  
+* Strona portfolio wraz z poradnikami programistycznymi dla początkujących
+** Spis treści w języku polskim
+** Streszczenie w języku polskim
+** Spis treści w języku angielskim
+** Streszczenie w języku angielskim
+** Wstęp
+   Strona portfolio prezentująca projekty programisty. Centrum informacji dla początkujących programistów w postaci poradników i treściwych objaśnień.
+*** Cel projektu
+**** Dla pracodawcy
+     - pokazanie z jakimi typami programista miał do czynienia
+     - pokazanie sposobu rozwiązywania problemów
+     - pokazanie jak wygląda kod (czy jest schludny i czytelny, lub może chaotyczny)
+     - pokazanie czy dobrze zna technologie
+     - pokazanie czy zna najnowsze rozwiązania w programowaniu
+**** Dla programisty
+     - pozwala uporządkować doświadczenie i przedstawić je lepiej niż w CV
+     - pokazuje realne doświadczenie i wiedzę
+     - pokazuje czego programista jeszcze nie robił i w jakim kierunku mógłby się jeszcze rozwinąć
+**** Dla początkującego
+     - miejsce w którym może się zapoznać w dość szybkim czasie z wieloma technologiami
+*** Dla kogo ta aplikacja jest przeznaczona
+    - firmy zatrudniające programisów
+    - początkujący programiści
+    # Strona internetowa ma na celu reklamować programistę firmom, oraz jego projekty, programy.
+    # Także będze jako centrum wiedzy dla początkujących programistów.
+*** Użyte technologie użyte podczas produkcji strony
+    - apache / nginx
+    - html
+    - css
+    - org-mode
+    - VPS (Virtual Private Server)
+    - deployment strony
+    - obraz png (zdjęcie)
+*** Użyte technologie podczas produkcji dokumentacji
+    - latex
+    - org-mode
+*** Użyte technologie w celu dydaktycznym
+    - instalacja niezbędnych pakietów
+    - komendy unixowe:
+      + wget?
+      + curl?
+      + imagemagick?
+      + ffmpeg?
+    - konfiguracja środowiska programistycznego (edytor tekstowy Emacs)
+      + instalacja pakietów
+      + przykładowe funkcje oraz ich działanie
+      + obsługa magit?
+    - python
+      + moduły:
+	1. argparse
+	2. pathlib
+	3. os
+	4. beautifulsoup4
+	5. requests
+    - html
+    - css
+    - java
+    - c
+    - c++
+    - emacs lisp
+    - latex
+    - markdown
+    - org-mode
+    - regex
+    - git
+** Specyfikacja wymagań
+*** słownik pojęć
+*** specyfikacja grup użytkowników
+*** pojęcia systemowe
+*** wymagania funkcjonalne
+    dlaczego z jakiej strony, administator
+** Użyte technologie
+*** opis używanych języków i technologii oprogramowania (html,css)
+** TODO Projekt aplikacji (zrobić na następne zajęcia!!!) (czy to w ogóle jest możliwe dla statycznej strony?, jeśli nie to poszukać dlaczego nie i napisac!!!!!)
+*** TODO UML
+*** TODO Przypadki użycia
+    - przypadek1
+    - przypadek2
+    - przypadek3
+*** DONE Aktorzy
+    CLOSED: [2022-03-21 Mon 18:55]
+    - pracodawca
+    - programista (ja)
+    - początkujący
+*** TODO Funkcje
+*** TODO Diagram przypadków użycia
+*** TODO Diagram encji
+*** TODO Diagram klas
+** Interfejs użytkownika
+*** Graficzna instrukcja użytkowania aplikacji
+** Podsumowanie efektu pracy
+*** Jak można jeszcze rozwinąc aplikację w przyszłości
+*** Co się udało zrobić, a czego nie
+** Bibliografia
+*** Wykorzystane źródła
+**** Kanały youtube?
+     - https://youtube.com/channel/DistroTube
+**** Strony internetowe
+***** Strony portfolio
+      - https://lukesmith.xyz
+***** Strony dydaktyczne
+      - https://landchad.net
+      - https://xahlee.info
+**** Książki
+     - jakaś książka o emacs?
+     - jakaś książka o 
+**** Prezentacje?
+*** nie tylko strony internetowy, mają być książki, prezentacje
+** Podsumowanie
+   
+
+   # *** Rady
+   #     plan
+   #     dlaczego
+   #     warunki: dane wejsciowe, dane wyjsciowe
