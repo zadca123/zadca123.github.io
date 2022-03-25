@@ -1,0 +1,174 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+    % If your name is very short, use just one of the lines below
+    % If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+    \colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Adam}}}}} % First name
+
+    \colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Salwowski}}}}} % Last name
+
+    \vspace{6pt}
+
+    {\huge Kandydat na stażystę} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth} % 27.5% of the page width for the first row of icons
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+    % The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+    % Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+    \icon{MapMarker}{12}{Tęczowa 17/24, Olsztyn}\\
+    \icon{Phone}{12}{+48 572 313 319}\\
+    \icon{At}{12}{\href{mailto:150998@student.uwm.edu.pl}{150998@student.uwm.edu.pl}}\\
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+    % The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+    % Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+    % \icon{Globe}{12}{\href{https://alyx.vance.me}{alyx.vance.me}}\\
+    \icon{Github}{12}{\href{https://github.com/zadca123}{github.com/zadca123}}\\
+    \icon{Gitlab}{12}{\href{https://gitlab.com/zadca123}{gitlab.com/zadca123}}\\
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\cvsect{Kim jestem?}
+
+\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+    Student \textbf{Uniwersytetu Warmińsko-Mazurskiego} na \textbf{Wydziale Matematyki i Informatyki}, kierunk: \textbf{Inżynieria Systemów Informatycznych}. Pasjonat technologii, prywatności w sieci.\\ % Dummy text
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+    \begin{barchart}{5.5}
+        \baritem{Python}{70}
+        \baritem{Bash/Shell Script}{70}
+        \baritem{Linux SysAdmin}{80}
+        \baritem{Git}{40}
+        \baritem{LaTeX}{30}
+        \baritem{Markdown/Org-mode}{60}
+    \end{barchart}
+\end{minipage}
+
+\begin{center}
+    \bubbles{4/Emacs, 5/vim, 4/git, 2/Office, 2/Gimp, 4/Regex}
+\end{center}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Doświadczenie}
+
+\begin{entrylist}
+    \entry
+    {2018 --- obecnie\\\footnotesize{full time}}
+    {Student}
+    {Wmii UWM}
+    {Na studiach miałem styczność z wieloma językami programowania czy algorytmami. Obecnie mamy zajęcia związane z Data Mining\\ \texttt{HTML/CSS/JS}\slashsep\texttt{PHP}\slashsep\texttt{C/C++}\slashsep\texttt{Python}\slashsep\texttt{Java}\slashsep\texttt{Haskell}\slashsep\texttt{Perl}\slashsep\texttt{UML}}
+    \entry
+    {2019 --- obecnie\\\footnotesize{part time}}
+    {Hobbystyczne programowanie}
+    {}
+    {Piszę sktrypty i programy automatyzujące żmudne procesy lub wrappery, które ułatwiają wchodzenie w interakcję ze skomplikowamymi narzędziami. Pracowałem także w grupie i wdrażałem aplikację na chmurę, czy hosting.\\ \texttt{Python}\slashsep\texttt{Bash/Shell}\slashsep\texttt{Emacs-Lisp}\slashsep\texttt{Django}\slashsep\texttt{Docker}\slashsep\texttt{Heroku}\slashsep\texttt{Azure}}
+    \entry
+    {2017 --- obecnie\\\footnotesize{full time}}
+    {Użytkownik Linuxa}
+    {}
+    {Już od 2017 zacząłem mieć styczność z tym systemem operacyjnym i wieloma jego dystrybucjami, a w 2019 całkowicie się na niego przerzuciłem. Jestem także biegły w posługiwaniu się edytorami tekstowym vim czy Emacs, używaniu i łączeniu różnych narzędzi z pakietu GNU, obróbka audio/video za pomocą ffmpeg czy imagemagick.\\ \texttt{Linux}\slashsep\texttt{GNU}\slashsep\texttt{UNIX}}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Wykształcenie}
+
+\begin{entrylist}
+    % \entry
+    % {2013 --- 2017}
+    % {Wmii UWM}
+    % {}
+    % {\lorem\lorem\lorem}
+    \entry
+    {2013 --- 2017}
+    {Technikum Mechaniczne w Kolnie}
+    {}
+    {W tej szkole zdobyłem wiedzę na temat mechaniki oraz obsługi maszyn skrawających i CNC.}
+    % \entry
+    % {1998 --- obecnie\\\footnotesize{part time}}
+    % {Rolnik}
+    % {}
+    % {Od wczesnych lat uczyłem się o rolnictwie, uprawie ziemi, czy hodowli bydła.}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.3\textwidth}
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+    \cvsect{Języki}
+
+    \textbf{Polish} --- ojczysty\\
+    \textbf{English} --- biegły\\
+    \textbf{German} --- początkujący\\
+    \textbf{Russian} --- początkujący
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+    \cvsect{Zainteresowania}
+
+    Lubię oglądać i czytać o historii, uprawiać sport, majstrować przy komputerze i pisać skrypty, które automatyzują różne rzeczy, testować różne oprogramowania i szukać alternatyw.
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Przyszłość}
+
+    Mam zamiar za pośrednictwem pythona przyjrzeć się bardziej Machine Learning, Data Mining czy frameworkowi \textbf{FastAPI}. Zainteresowały mnie także języki programowania takie jak \textbf{Rust} czy \textbf{Lisp} i jego dialekty.
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
