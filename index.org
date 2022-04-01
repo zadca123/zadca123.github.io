@@ -1,0 +1,23 @@
+#+TITLE: Praca dyplomowa
+#+DESCRIPTION: Strona portfolio wraz z podadnikami dla początkujących programistów
+#+AUTHOR: Adam Salwowski
+# #+EXPORT_FILE_NAME:
+#+HTML_HEAD: 
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+OPTIONS: num:nil
+
+* TEST
+** TEST
+*** TEST
+**** TEST
+* Inspirations for creating this side
+   - https://lukesmith.xyz
+   - https://landchad.net
+   - https://xahlee.info
+* Links
+  - E-mail address :: mailto:150998@student.uwm.edu.pl
+  - Github :: https://github.com/zadca123/
+  - Gitlab :: https://gitlab.com/zadca123/
+  - Mirror on notabug.org :: https://notabug.com/zadca123/
+  - StackOverflow :: https://stackoverflow.com/users/17855207/zadca123/
+  - My CV :: https://gitlab.com/zadca123/cv/
