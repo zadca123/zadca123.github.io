@@ -6,18 +6,32 @@
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: num:nil
 
-* TEST
-** TEST
-*** TEST
-**** TEST
+* TODO Zapoznać się z tym
+  https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html
 * Inspirations for creating this side
    - https://lukesmith.xyz
    - https://landchad.net
    - https://xahlee.info
+* Programming basics
+** instalacja niezbędnych pakietów
+** konfiguracja środowiska programistycznego (edytor tekstowy Emacs)
+*** emacs lisp
+** python
+** html
+** css
+** java
+** c
+** c++
+** latex
+** markdown
+** org-mode
+** regex
+** git
+   : Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals.
 * Links
   - E-mail address :: mailto:150998@student.uwm.edu.pl
   - Github :: https://github.com/zadca123/
   - Gitlab :: https://gitlab.com/zadca123/
   - Mirror on notabug.org :: https://notabug.com/zadca123/
   - StackOverflow :: https://stackoverflow.com/users/17855207/zadca123/
-  - My CV :: https://gitlab.com/zadca123/cv/
+  - My CV :: https://gitlab.com/zadca123/cv/-/blob/master/main.pdf

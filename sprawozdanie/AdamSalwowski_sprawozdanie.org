@@ -3,12 +3,12 @@
 #+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
 #+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
 #+options: timestamp:t title:t toc:t todo:t |:t
-#+title: Statyczna? strona portfolio wraz z poradnikami programistycznymi dla początkujących
+#+title: Statyczna strona portfolio wraz z poradnikami programistycznymi dla początkujących
 #+author: Adam Salwowski
 #+language: pl
 #+select_tags: export
 #+exclude_tags: noexport
-* Spis treści :toc:  
+
 * Strona portfolio wraz z poradnikami programistycznymi dla początkujących
 ** Spis treści w języku polskim
 ** Streszczenie w języku polskim
@@ -75,28 +75,53 @@
     - regex
     - git
 ** Specyfikacja wymagań
-*** słownik pojęć
-*** specyfikacja grup użytkowników
-*** pojęcia systemowe
-*** wymagania funkcjonalne
+*** Wymagania funkcjonalne systemu w postaci zadań szczegółowych
+    - zarządzaj stroną :: pozwala na dokowynania operacji *CRUD* na stronie programisty
+    - opłac stronę :: odpowiada za opłacenie hostingu strony
+    - ucz się :: odpowiada za nabycie wiedzy, która jest źródłem pomysłów na nowe treści na stronie
+    - qwe :: opis
+    - qwe :: opis
     dlaczego z jakiej strony, administator
-** Użyte technologie
-*** opis używanych języków i technologii oprogramowania (html,css)
-** TODO Projekt aplikacji (zrobić na następne zajęcia!!!) (czy to w ogóle jest możliwe dla statycznej strony?, jeśli nie to poszukać dlaczego nie i napisac!!!!!)
-*** TODO UML
-*** TODO Przypadki użycia
-    - przypadek1
-    - przypadek2
-    - przypadek3
-*** DONE Aktorzy
-    CLOSED: [2022-03-21 Mon 18:55]
-    - pracodawca
-    - programista (ja)
-    - początkujący
-*** TODO Funkcje
+*** WORKING Słownik pojęć systemowych
+     # - strona :: cała strona z treścią dla /początkujących/ oraz /pracodawców/
+     # - poradniki :: część strony wyznaczona dla /początkującego/, zawierająca tutoriale
+     # - portfolio :: część strony wyznaczona dla /pracodawcy/, zawierająca treści interesujące /interviewerów/ zatrudniających do firm
+*** Specyfikacja grupy użytkowników
+   | Atrybut                        | Programista  | Początkujący | Pracodawca   |
+   |--------------------------------+--------------+--------------+--------------|
+   | Wiek                           | brak         | brak         | brak         |
+   | Umiejętności obsługi komputera | zaawansowane | średnie      | zaawansowane |
+   | Wykształcenie                  | wyższe       | podstawowe   | wyższe       |
+   | Znajomość tematyki SI          | podstawowa   | podstawowa   | podstawowa   |
 *** TODO Diagram przypadków użycia
+**** DONE Przypadki użycia
+     CLOSED: [2022-04-02 Sat 14:07]
+     - strona :: cała strona z treścią dla /początkujących/ oraz /pracodawców/
+     - poradniki :: część strony wyznaczona dla /początkującego/, zawierająca tutoriale
+     - portfolio :: część strony wyznaczona dla /pracodawcy/, zawierająca treści interesujące /interviewerów/ zatrudniających do firm
+     - bibliografia / źródła :: treści które posłużyły /programiście/ przy budowie strony
+**** DONE Funkcje
+     CLOSED: [2022-04-02 Sat 14:08]
+     - wyświetl stronę :: odpowiada za wyświetlenie strony za pomocą przeglądarki
+**** DONE Diagramy
+     CLOSED: [2022-04-01 Fri 21:51]
+     #+CAPTION: Diagram przypadków użycia
+     [[./images/diagram_przypadkow_uzycia.png]]
 *** TODO Diagram encji
 *** TODO Diagram klas
+**** Atrybuty klas
+     - Programista :: imie, nazwisko, e-mail, repozytoria, źródła
+     - Początkujący :: imie, nazwisko, e-mail
+     - Pracodawca/Interviewer :: imie, nazwisko, e-mail
+     - Strona :: link, treść, technologie
+
+*** DONE Aktorzy
+    CLOSED: [2022-03-21 Mon 18:55]
+    - programista (ja) :: osoba odpowiedzialna za stworzenie strony
+    - pracodawca :: osoba odpowiedzialna za zatrudnianie do firmy
+    - początkujący :: osoba zaczynająca karierę w IT, ucząca się podstaw programowania
+** Użyte technologie
+*** opis używanych języków i technologii oprogramowania (html,css)
 ** Interfejs użytkownika
 *** Graficzna instrukcja użytkowania aplikacji
 ** Podsumowanie efektu pracy
