@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>17</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>102</x>
+      <y>340</y>
+      <w>289</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>_object: Class_
+--
+id: Long="36548"
+[waiting for message]</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
