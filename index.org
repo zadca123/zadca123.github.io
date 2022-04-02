@@ -9,9 +9,9 @@
 * TODO Zapoznać się z tym
   https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html
 * Inspirations for creating this side
-   - https://lukesmith.xyz
-   - https://landchad.net
-   - https://xahlee.info
+  - https://lukesmith.xyz
+  - https://landchad.net
+  - https://xahlee.info
 * Programming basics
 ** instalacja niezbędnych pakietów
 ** konfiguracja środowiska programistycznego (edytor tekstowy Emacs)
@@ -27,7 +27,20 @@
 ** org-mode
 ** regex
 ** git
-   : Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals.
+   Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals.
+*** Basic commands
+    + Set Up Name and Email Info
+      #+begin_src 
+    git config --global user.name "Mary Lee"
+    git config --global user.email "mary@example.com"
+      #+end_src
+    + Commit Changes to Local Repository
+      - git status :: Show current status. (that is, list changed files.)
+      - git add . :: Add changes from current dir to local repository's staging area.
+      - git commit -m"message" :: Commit changes to the local repository. The message is a short description of changes you made.
+    + Sync with Remote Repository :: To get update from a server, or put your changes to a server , you need to pull or push.
+      - git pull :: Pull from remote to your local repository.
+      - git push :: Push your local repository to remote. 
 * Links
   - E-mail address :: mailto:150998@student.uwm.edu.pl
   - Github :: https://github.com/zadca123/
